@@ -1,6 +1,6 @@
 import numpy
 import matplotlib.pyplot
-
+# Add data file
 data = numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
 
 fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
